@@ -4,10 +4,10 @@ import copy
 from collections import namedtuple, deque
 import torch
 
-from ddpg_agent2 import Agent
+from ddpg_agent import Agent
 from memory import ReplayBuffer
 from hyperparameters  import *
-from utils2 import encode, decode
+from utils import encode, decode
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
