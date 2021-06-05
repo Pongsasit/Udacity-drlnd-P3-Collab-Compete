@@ -3,7 +3,7 @@ import random
 import copy
 #from collections import namedtuple, deque
 
-from model2 import Actor, Critic
+from model import Actor, Critic
 from memory import ReplayBuffer
 # from hyperparameters  import *
 
