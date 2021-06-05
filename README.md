@@ -22,6 +22,12 @@ The task is episodic, and in order to solve the environment, your agents must ge
 - This yields a single **score** for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
+### Dependencies
+To set up your Python environment correctly follow [THIS LINK](https://github.com/udacity/deep-reinforcement-learning#dependencies) \
+To run this project you will need the following Python libraries:\
+    - numpy (tested with 1.19.5)\
+    - torch (tested with 1.8.1+cu111)\
+    - matplotlib (tested with 3.4.0)\
 
 ### Getting Started
 
